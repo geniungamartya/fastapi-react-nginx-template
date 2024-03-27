@@ -1,4 +1,4 @@
-# Setup Dev
+# Setup Dev Env
 1. Install Pipx
 2. `pipx install poetry`to install poetry
 3. `poetry init` to init project
