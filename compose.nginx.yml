@@ -1,0 +1,15 @@
+version : "3"
+services :
+  nginx-proxy:
+    image: nginx:latest
+    container_name: nginx-proxy
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./config/nginx/conf/:/etc/nginx/conf.d/
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
