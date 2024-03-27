@@ -1,4 +1,3 @@
-
 # Setup Nginx
 ```
 sudo apt install nginx
